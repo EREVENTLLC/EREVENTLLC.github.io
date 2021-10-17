@@ -1,0 +1,75 @@
+/*STYLES FOR  MY LINKS */
+
+/* Change font for the whole page from here */
+
+* {
+    font-family: "Reem Kufi" , sans-serif;
+    color: white !important;
+}
+
+a:link , a:visited , a:hover , a:active{
+    text-decoration: none;
+}
+
+/* Background of the whole page */
+.container-fluid {
+    background: linear-gradient(rgb(33, 0, 153) , rgb(145, 6, 173));
+    /* background: url("/images/background"); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* Color of top Bar (profile photo and name) */
+.top-profile {
+    /* background-color: rgb(0, 255, 170); */
+}
+
+/* Styles for Profile Name */
+.profile-title span {
+    border-bottom: 0.2rem solid rgb(0, 255, 170);
+    border-bottom-right-radius: 0.5rem;
+    /* color: white !important; */
+    /* font-family: inherit; */
+}
+
+/* Profile Picture Container */
+.profile-picture {
+    height: fit-content;
+}
+
+
+/* Profile Picture Settings here */
+.picture {
+    height: 5rem;
+    width: 5rem;
+    background-image: url("/images/profilepicture.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat-y;
+    border-radius: 50%;
+}
+
+/* Color of Link Buttons */
+
+.btn {
+    border-radius: 0.5rem;
+    border: 0.2rem solid rgb(0, 255, 170);
+    color: black !important;
+    background: white;
+}
+
+/* Color of Link Buttons while hovering*/
+.btn:hover {
+    transition: 0.6s;
+    border-radius: 2rem;
+    background: rgb(6, 201, 136);
+}
+
+
+@media only screen and (min-width:768px) {
+    * {
+        font-size: 1.2rem !important;
+    }
+}
